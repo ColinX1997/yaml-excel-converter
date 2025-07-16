@@ -1,0 +1,302 @@
+t:
+  nodes:
+    - node: 1102
+      remote: "XY01T.xy.cn"
+      rsap: TIA
+      desc: "XY01 -  (040)"
+      inbound:
+        - pattern: XY01_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY01_
+      is_tia: True
+      T_id: XY01_
+      receive_sp: random
+    - node: 1103
+      remote: "XY03T.xy.cn"
+      rsap: TIA
+      desc: "XY03 -  (041)"
+      inbound:
+        - pattern: XY03_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY03_
+      is_tia: True
+      T_id: XY03_
+      receive_sp: random
+    - node: 1104
+      remote: "XY05T.xy.cn"
+      rsap: TIA
+      desc: "XY05 -  (042)"
+      inbound:
+        - pattern: XY05_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY05_
+      is_tia: True
+      T_id: XY05_
+      receive_sp: random
+    - node: 1105
+      remote: "XY02T.xy.cn"
+      rsap: TIA
+      desc: "XY02 -  (050)"
+      inbound:
+        - pattern: XY02_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY02_
+      is_tia: True
+      T_id: XY02_
+      receive_sp: random
+    - node: 110
+      remote: "XY04T.xy.cn"
+      rsap: TIA
+      desc: "XY04 -  (051)"
+      inbound:
+        - pattern: XY04_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY04_
+      is_tia: True
+      T_id: XY04_
+      receive_sp: random
+    - node: 1107
+      remote: "XY0T.xy.cn"
+      rsap: TIA
+      desc: "XY0 -  (052)"
+      inbound:
+        - pattern: XY0_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XY0_
+      is_tia: True
+      T_id: XY0_
+      receive_sp: random
+    - node: 1108
+      remote: "XYS01T.xy.cn"
+      rsap: TIA
+      desc: "XYS01 -  (00)"
+      inbound:
+        - pattern: XYS01_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS01_
+      is_tia: True
+      T_id: XYS01_
+      receive_sp: random
+    - node: 1110
+      remote: "XYS09T.xy.cn"
+      rsap: TIA
+      desc: "XYS09 -  (02)"
+      inbound:
+        - pattern: XYS09_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS09_
+      is_tia: True
+      T_id: XYS09_
+      receive_sp: random
+    - node: 1111
+      remote: "XYS13T.xy.cn"
+      rsap: TIA
+      desc: "XYS13 -  (03)"
+      inbound:
+        - pattern: XYS13_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS13_
+      is_tia: True
+      T_id: XYS13_
+      receive_sp: random
+    - node: 1112
+      remote: "XYS17T.xy.cn"
+      rsap: TIA
+      desc: "XYS17 -  (04)"
+      inbound:
+        - pattern: XYS17_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS17_
+      is_tia: True
+      T_id: XYS17_
+      receive_sp: random
+    - node: 1113
+      remote: "XYS21T.xy.cn"
+      rsap: TIA
+      desc: "XYS21 -  (05)"
+      inbound:
+        - pattern: XYS21_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS21_
+      is_tia: True
+      T_id: XYS21_
+      receive_sp: random
+    - node: 111
+      remote: "XYS10T.xy.cn"
+      rsap: TIA
+      desc: "XYS10 -  (072)"
+      inbound:
+        - pattern: XYS10_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS10_
+      is_tia: True
+      T_id: XYS10_
+      receive_sp: random
+    - node: 1117
+      remote: "XYS14T.xy.cn"
+      rsap: TIA
+      desc: "XYS14 -  (073)"
+      inbound:
+        - pattern: XYS14_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS14_
+      is_tia: True
+      T_id: XYS14_
+      receive_sp: random
+    - node: 1118
+      remote: "XYS18T.xy.cn"
+      rsap: TIA
+      desc: "XYS18 -  (074)"
+      inbound:
+        - pattern: XYS18_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS18_
+      is_tia: True
+      T_id: XYS18_
+      receive_sp: random
+    - node: 1119
+      remote: "XYS22T.xy.cn"
+      rsap: TIA
+      desc: "XYS22 -  (075)"
+      inbound:
+        - pattern: XYS22_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS22_
+      is_tia: True
+      T_id: XYS22_
+      receive_sp: random
+    - node: 1122
+      remote: "XYS12T.xy.cn"
+      rsap: TIA
+      desc: "XYS12 -  (092)"
+      inbound:
+        - pattern: XYS12_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS12_
+      is_tia: True
+      T_id: XYS12_
+      receive_sp: random
+    - node: 1123
+      remote: "XYS1T.xy.cn"
+      rsap: TIA
+      desc: "XYS1 -  (093)"
+      inbound:
+        - pattern: XYS1_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS1_
+      is_tia: True
+      T_id: XYS1_
+      receive_sp: random
+    - node: 1124
+      remote: "XYS20T.xy.cn"
+      rsap: TIA
+      desc: "XYS20 -  (094)"
+      inbound:
+        - pattern: XYS20_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS20_
+      is_tia: True
+      T_id: XYS20_
+      receive_sp: random
+    - node: 1125
+      remote: "XYS24T.xy.cn"
+      rsap: TIA
+      desc: "XYS24 -  (095)"
+      inbound:
+        - pattern: XYS24_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYS24_
+      is_tia: True
+      T_id: XYS24_
+      receive_sp: random
+    - node: 1128
+      remote: "XYQ02T.xy.cn"
+      rsap: TIA
+      desc: "XYQ02 -  (121)"
+      inbound:
+        - pattern: XYQ02_
+          position: 1
+          sp: random
+      outbound:
+        - sp: SPS1
+          position: 9
+          pattern: XYQ02_
+      is_tia: True
+      T_id: XYQ02_
+      receive_sp: random
